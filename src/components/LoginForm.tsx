@@ -99,7 +99,7 @@ const handleSubmit = async (e: React.FormEvent) => {
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <input
-              type="email"
+              type="text"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Correo electrónico o teléfono"
